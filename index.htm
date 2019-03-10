@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Workshops - CSS & CAHSI</title>
+</head>
+<body class="container">
+<header class="row">
+    <div class="col-12 header-title">
+        <h1>Akkowledgment</h1>
+    </div>
+    <div class="col-12 header-desc">
+        <h2>Thanks to CSS and CAHSI</h2>
+        <p>We want to thank the <a href="" title="mising link">Computer Science Society</a> for helping us connect to our peer-students and ease the booking process to give the workshops.  Also we want to thank the <a href="" title="missing link">Computing Alliance for Hispanic Serving Institutions (CASHI)</a> for empowering us and motivate us to continue helping others.</p>
+    </div>
+</header>
+<main class="row">
+    <div class="col-12">
+        <h1>Workshops</h1>
+        <p>Many times I have found myself watching tons of youtube videos just to learn something faily simple, but that wasnot covered in any of the classes I took.  Many more I have heard people talking about some terminology that I am supposed to know, even though I nod on the conversation deep down I have no idea what they are saying.</p>
+        <p>Someone would say <span class="font-italic">-- well, just find a time to look it up on google --</span> and my thinking is <span class="font-italic">--Oh boy... I just wish I could skip work today to do that.</span></p>
+    </div>
+    <div class="col-12">
+            <h1>Tentative Schedule</h1>
+            <div id="schedule-container">
+                <ol id="list-1">
+                    <li>
+                        <ul class="row">
+                            <div class="col-md-8">
+                                <li class="col-12"><label class="font-weight-bold">name</label> <span class="">${name}</span> </li>
+                                <li class="col-md-12"><label class="font-weight-bold">whatIllLearn:</label> <span class="">${whatIllLearn}</span> </li>
+                                <li class="col-md-12"><label class="font-weight-bold">whatToBring:</label> <span class="">${whatToBring} <span> </li>
+                                <li class="col-12"><label class="font-weight-bold">facilitatorsID:</label> <span class="">  foorloop on ${facilitators[${facilitatorsID}]}----</span> </li>
+                            </div>
+                            <div class="col-md-auto">
+                                <li class="col"><label class="font-weight-bold">when:</label> <span class="">${when}</span> </li>
+                                <li class="col"><label class="font-weight-bold">where:</label> <span class="">${where}</span> </li>
+                                <li class="col"><label class="font-weight-bold">time:</label> <span class="">${time}</span> </li>
+                                <li class="col-12"><label class="font-weight-bold"> <a href="" title="more about the workshop"> moreInfoLink:</a></label> <span class=""></span> </li>
+                                <li class="col-12"><label class="font-weight-bold"><a href="" role="btn" title = "register to attend" class="btn btn-primary">regLink:</a></label> <span class=""><span> </li>
+                            </div>
+                        </ul>                            
+                    </li>
+                    <li>
+                            <ul class="row">
+                                <div class="col-md-8">
+                                    <li class="col-12"><label class="font-weight-bold">name</label> <span class="">${name}</span> </li>
+                                    <li class="col-md-12"><label class="font-weight-bold">whatIllLearn:</label> <span class="">${whatIllLearn}</span> </li>
+                                    <li class="col-md-12"><label class="font-weight-bold">whatToBring:</label> <span class="">${whatToBring} <span> </li>
+                                    <li class="col-12"><label class="font-weight-bold">facilitatorsID:</label> <span class="">  foorloop on ${facilitators[${facilitatorsID}]}----</span> </li>
+                                </div>
+                                <div class="col-md-auto">
+                                    <li class="col"><label class="font-weight-bold">when:</label> <span class="">${when}</span> </li>
+                                    <li class="col"><label class="font-weight-bold">where:</label> <span class="">${where}</span> </li>
+                                    <li class="col"><label class="font-weight-bold">time:</label> <span class="">${time}</span> </li>
+                                    <li class="col-12"><label class="font-weight-bold"> <a href="" title="more about the workshop"> moreInfoLink:</a></label> <span class=""></span> </li>
+                                    <li class="col-12"><label class="font-weight-bold"><a href="" role="btn" title = "register to attend" class="btn btn-primary">regLink:</a></label> <span class=""><span> </li>
+                                </div>
+                            </ul>                            
+                        </li>
+                </ol>
+                    
+            </div>
+    </div>
+</main>
+<footer class="row">
+    <div><img src="" alt="CSS logo" /></div>
+    <div><img src="" alt="CAHSI logo" /></div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
