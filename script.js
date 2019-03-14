@@ -44,15 +44,63 @@ const workshops = [
     },
     {
         workshopID:3,
-        name: 'html and more',
-        whatIllLearn: 'a paragraph briefly explaining',
+        name: 'HTML/CSS',
+        whatIllLearn: 'we will go over some of the tags that are not typically taught in client-side, linked with online git repositories.',
         whatToBring: 'Laptop',
         when:'',
         where:'',
         time:'',
         regLink: '',
         moreInfoLink: '',
-        facilitatorsID:[0,1]
+        facilitatorsID:[0]
+    },
+    {
+        workshopID:4,
+        name:'CS200 for Javascript on the cloud',
+        whatIllLearn: `we will go over the foundations of javascript (this will be all it's known before ECMA5) and installation of a web server on the cloud using GENI.`,
+        whatToBring: 'Laptop',
+        when:'---',
+        where:'---',
+        time:'---',
+        regLink: '',
+        moreInfoLink: '',
+        facilitatorsID:[0]
+    },
+    {
+        workshopID:5,
+        name:'Simple Web Application',
+        whatIllLearn: 'using html/css and Javascript to build a web application, a game or a calculator.  Once it is finished, we will deploy it server where anybody will be able to see it.',
+        whatToBring: 'Laptop, have requested a space on neiu.homepages',
+        when:'---',
+        where:'---',
+        time:'---',
+        regLink: '',
+        moreInfoLink: '',
+        facilitatorsID:[0]
+    },
+    {
+        workshopID:6,
+        name:'Artificial Neural Networks using Jupiter, python and Sci Kit Learn.',
+        whatIllLearn: 'You will apply AI concepts on ...',
+        whatToBring: 'Laptop',
+        when:'---',
+        where:'---',
+        time:'---',
+        regLink: '',
+        moreInfoLink: '',
+        facilitatorsID:[0]
+    },
+    {
+        workshopID:7,
+        name:'cs200 for Python 3.0',
+        whatIllLearn: 'You will learn the foundations of python.  Translate what you already have done in java into a new language.',
+        whatToBring: 'Laptop',
+        when:'---',
+        where:'---',
+        time:'---',
+        regLink: '',
+        moreInfoLink: '',
+        facilitatorsID:[0]
     }
 ];
 
@@ -61,7 +109,7 @@ const aCard =  (workshop) => {
    return  `<li> <ul class="row">
             <div class="col-lg-8">
                 <li class="col-12 my-1"><label class="font-weight-bold">Name: </label> <span class="">${workshop['name']}</span> </li>
-                <li class="col-md-12 my-1"><label class="font-weight-bold">What to Learn: </label><p class="">${workshop['whatIllLearn']} <a target="_blank" href="${workshop['moreInfoLink']}" title="more about the workshop">(more)</a></p></li>
+                <li class="col-md-12 my-1"><label class="font-weight-bold">What to Learn: </label><p class="">${workshop['whatIllLearn']} <a target="_blank" href="${workshop['moreInfoLink']}" ${(workshop['moreInfoLink'])==''? 'hidden':''} title="more about the workshop">(more)</a></p></li>
                 <li class="col-md-12 my-1"><label class="font-weight-bold">What to bring: </label> <span class="">${workshop['whatToBring']} <span> </li>
                 <li class="col-12 my-1"><label class="font-weight-bold">FacilitatorsID:</label> <span class="">  ${workshop['facilitatorsID'].reduce((total,val) => total+facilitators[val].name+', '," ")}--</span> </li>
             </div>
@@ -69,7 +117,7 @@ const aCard =  (workshop) => {
                 <li class="col"><label class="font-weight-bold">When:</label> <span class="">${workshop['when']}</span> </li>
                 <li class="col"><label class="font-weight-bold">Where:</label> <span class="">${workshop['where']}</span> </li>
                 <li class="col"><label class="font-weight-bold">Time:</label> <span class="">${workshop['time']}</span> </li>
-                <li class="col-12"><label class="font-weight-bold"><a target="_blank" href="${workshop['regLink']}" role="btn" title = "register to attend" class="btn btn-primary">Register</a></label> <span class=""><span> </li>
+                <li class="col-12"><label class="font-weight-bold"><a target="_blank" href="${workshop['regLink']}" role="btn" title = "register to attend" ${(workshop['regLink'])==''? 'hidden':''} class="btn btn-primary">Register</a></label> <span class=""><span> </li>
                 <li class="col-12"><label class="font-weight-bold"> </label> <span class=""></span> </li>
             </div>
             </ul></li>
