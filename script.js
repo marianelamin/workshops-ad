@@ -2,16 +2,21 @@
 const facilitators = [
     {
         id:0,
+        name: "TBD",
+        email:""
+    },
+    {
+        id:1,
         name: "Marianela",
         email:"mmendozamend@neiu.edu"
     },
     {
-        id:1,
+        id:2,
         name: "Erik",
         email:"e-macias@neiu.edu"
     },
     {
-        id:2,
+        id:3,
         name: "John",
         email:"j-mcrissman@neiu.edu"
     }
@@ -28,7 +33,7 @@ const workshops = [
         time:'3pm - 4pm',
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLScwm5oaYSdvA4hnPCg_tiTBgD5bbPg-WNNW61a7r9eq9YtHNw/viewform?usp=sf_link',
         moreInfoLink: 'http://manela.web.ve/workshops/command-line-git-bash/CommandLineWorkshop.pdf',
-        facilitatorsID:[0,1]
+        facilitatorsID:[1,2]
     },
     {
         workshopID:2,
@@ -40,16 +45,16 @@ const workshops = [
         time:'3pm - 4pm',
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfquBGruEUW2XLalKC3JS3UszGDE0-CHz6rEqdEbZ7U49fuwQ/viewform?usp=sf_link',
         moreInfoLink: 'http://www.cahsi-midwest.org/workshop1-security/index.htm',
-        facilitatorsID:[1]
+        facilitatorsID:[2]
     },
     {
         workshopID:3,
         name: 'HTML/CSS',
         whatIllLearn: 'we will go over some of the tags that are not typically taught in client-side, linked with online git repositories.',
         whatToBring: 'Laptop',
-        when:'',
-        where:'',
-        time:'',
+        when:'TBD',
+        where:'TBD',
+        time:'TBD',
         regLink: '',
         moreInfoLink: '',
         facilitatorsID:[0]
@@ -59,9 +64,9 @@ const workshops = [
         name:'CS200 for Javascript on the cloud',
         whatIllLearn: `we will go over the foundations of javascript (this will be all it's known before ECMA5) and installation of a web server on the cloud using GENI.`,
         whatToBring: 'Laptop',
-        when:'---',
-        where:'---',
-        time:'---',
+        when:'TBD',
+        where:'TBD',
+        time:'TBD',
         regLink: '',
         moreInfoLink: '',
         facilitatorsID:[0]
@@ -71,9 +76,9 @@ const workshops = [
         name:'Simple Web Application',
         whatIllLearn: 'using html/css and Javascript to build a web application, a game or a calculator.  Once it is finished, we will deploy it server where anybody will be able to see it.',
         whatToBring: 'Laptop, have requested a space on neiu.homepages',
-        when:'---',
-        where:'---',
-        time:'---',
+        when:'TBD',
+        where:'TBD',
+        time:'TBD',
         regLink: '',
         moreInfoLink: '',
         facilitatorsID:[0]
@@ -83,21 +88,21 @@ const workshops = [
         name:'Artificial Neural Networks using Jupiter, python and Sci Kit Learn.',
         whatIllLearn: 'You will apply AI concepts on ...',
         whatToBring: 'Laptop',
-        when:'---',
-        where:'---',
-        time:'---',
+        when:'TBD',
+        where:'TBD',
+        time:'TBD',
         regLink: '',
         moreInfoLink: '',
-        facilitatorsID:[0]
+        facilitatorsID:[3]
     },
     {
         workshopID:7,
         name:'cs200 for Python 3.0',
         whatIllLearn: 'You will learn the foundations of python.  Translate what you already have done in java into a new language.',
         whatToBring: 'Laptop',
-        when:'---',
-        where:'---',
-        time:'---',
+        when:'TBD',
+        where:'TBD',
+        time:'TBD',
         regLink: '',
         moreInfoLink: '',
         facilitatorsID:[0]
@@ -111,7 +116,7 @@ const aCard =  (workshop) => {
                 <li class="col-12 my-1"><label class="font-weight-bold">Name: </label> <span class="">${workshop['name']}</span> </li>
                 <li class="col-md-12 my-1"><label class="font-weight-bold">What to Learn: </label><p class="">${workshop['whatIllLearn']} <a target="_blank" href="${workshop['moreInfoLink']}" ${(workshop['moreInfoLink'])==''? 'hidden':''} title="more about the workshop">(more)</a></p></li>
                 <li class="col-md-12 my-1"><label class="font-weight-bold">What to bring: </label> <span class="">${workshop['whatToBring']} <span> </li>
-                <li class="col-12 my-1"><label class="font-weight-bold">FacilitatorsID:</label> <span class="">  ${workshop['facilitatorsID'].reduce((total,val) => total+facilitators[val].name+', '," ")}--</span> </li>
+                <li class="col-12 my-1"><label class="font-weight-bold">Facilitators:</label> <span class="">  ${workshop['facilitatorsID'].reduce((total,val) => total+facilitators[val].name+', '," ")}--</span> </li>
             </div>
             <div class="col-md-auto">
                 <li class="col"><label class="font-weight-bold">When:</label> <span class="">${workshop['when']}</span> </li>
