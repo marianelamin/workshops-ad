@@ -106,7 +106,7 @@ const workshops = [
 const aCard =  (workshop) => {
    return  `<li> <ul class="row">
             <div class="col-lg-8">
-                <li class="col-12 my-1"><label class="font-weight-bold">Name: </label> <span class="">${workshop['name']}</span> </li>
+                <li class="col-12 my-1"><label class="font-weight-bold">Title: </label> <span class="">${workshop['name']}</span> </li>
                 <li class="col-md-12 my-1"><label class="font-weight-bold">What to Learn: </label><p class="">${workshop['whatIllLearn']} <a target="_blank" href="${workshop['moreInfoLink']}" ${(workshop['moreInfoLink'])==''? 'hidden':''} title="more about the workshop">(more)</a></p></li>
                 <li class="col-md-12 my-1"><label class="font-weight-bold">What to bring: </label> <span class="">${workshop['whatToBring']} <span> </li>
                 <li class="col-12 my-1"><label class="font-weight-bold">Facilitators:</label> <span class="">  ${workshop['facilitatorsID'].reduce((total,val) => total+`<a href="mailto:${facilitators[val].email}">${facilitators[val].name}</a>, `," ")}--</span> </li>
