@@ -29,7 +29,6 @@ const facilitators = [
 
 const workshops = [
     {
-        workshopID:1,
         name: 'Command Line - Bash',
         whatIllLearn: 'How to navigate through directories, create, modify and delete files, run java programs using only the command line.  We will be using Bash as the scripting language.',
         whatToBring: 'Laptop',
@@ -42,7 +41,6 @@ const workshops = [
         facilitatorsID:[1,2]
     },
     {
-        workshopID:2,
         name: 'Steganography and Kali Linux',
         whatIllLearn: 'How to install a program that we will be using in Kali Linux, as well as how to embed a text file, audio file and a java program in an image file.  You will learn also how to decrypt that image file with all the data stored.  Kali Linux is widely used by security experts in the real world.',
         whatToBring: 'Laptop',
@@ -55,11 +53,10 @@ const workshops = [
         facilitatorsID:[2]
     },
     {
-        workshopID:3,
         name: 'CS200 for Javascript',
         whatIllLearn: 'We will contribute to an existent project, using online git repositories and applying concepts of Javascript.  We will start with the foundations and build up on it.',
         whatToBring: 'Laptop',
-        when:'TBD',
+        when:'TBD - April week 1',
         where:'TBD',
         time:'TBD',
         regLink_state: false,
@@ -68,11 +65,10 @@ const workshops = [
         facilitatorsID:[4]
     },
     {
-        workshopID:4,
         name: 'HTML/CSS - Canvas and Bootstrap',
-        whatIllLearn: `We will go over some of the tags that are not typically taught in client-side. As well as explore a CSS framework to make beautiful pages quickly.  All the projects we so will have to be saved an online git repository.  We'll guide you.`,
-        whatToBring: 'Laptop',
-        when:'TBD',
+        whatIllLearn: `Using html/css and Javascript to build a web application, a game or a calculator.  Once it is finished, we will deploy it to a server where everyone will be able to see/use it.  For this we will learn how to use Boostrap CSS framework in order to add style.  At the end we will save changes on the online reposotory.`,
+        whatToBring: 'Laptop, Create a GitHub or Bitbucket account, Email <a href="mailto:helpdesk@neiu.edu">Helpdesk NEIU</a> to request a space on homepages.neiu.edu in order to host our application',
+        when:'TBD - April week 1',
         where:'TBD',
         time:'TBD',
         regLink_state: false,
@@ -81,11 +77,10 @@ const workshops = [
         facilitatorsID:[0]
     },
     {
-        workshopID:5,
         name:'CS200 for Python and Computer Networks',
         whatIllLearn: `We will learn the basics of python in order to write translate Java programs into Python.`,
         whatToBring: 'Laptop',
-        when:'TBD',
+        when:'TBD - April week 2',
         where:'TBD',
         time:'TBD',
         regLink_state: false,
@@ -94,43 +89,16 @@ const workshops = [
         facilitatorsID:[1]
     },
     {
-        workshopID:6,
-        name:'cs200 for Python 3.0',
-        whatIllLearn: 'You will learn the foundations of python.  Translate what you already have done in java into a new language.',
-        whatToBring: 'Laptop',
-        when:'TBD',
-        where:'TBD',
-        time:'TBD',
-        regLink_state: false,
-        regLink: '',
-        moreInfoLink: '',
-        facilitatorsID:[0]
-    },
-    {
-        workshopID:7,
         name:'Artificial Neural Networks using Jupiter, python and Sci Kit Learn.',
         whatIllLearn: 'You will apply AI concepts on ...',
         whatToBring: 'Laptop',
-        when:'TBD',
+        when:'TBD - April week 2',
         where:'TBD',
         time:'TBD',
         regLink_state: false,
         regLink: '',
         moreInfoLink: '',
         facilitatorsID:[3]
-    },
-    {
-        workshopID:8,
-        name:'Simple Web Application',
-        whatIllLearn: 'Using html/css and Javascript to build a web application, a game or a calculator.  Once it is finished, we will deploy it server where anybody will be able to see it.',
-        whatToBring: 'Laptop, have requested a space on neiu.homepages',
-        when:'TBD',
-        where:'TBD',
-        time:'TBD',
-        regLink_state: false,
-        regLink: '',
-        moreInfoLink: '',
-        facilitatorsID:[0]
     },
 ];
 
