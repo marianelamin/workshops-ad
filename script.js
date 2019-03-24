@@ -83,8 +83,8 @@ const workshops = [
         when:'April 4th, 2019',
         where:'LWH 2031',
         time:'9am - 11am',
-        regLink_state: false,
-        regLink: '',
+        regLink_state: true,
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc4hcOtncq5xDJ68vht9hJYEOX75zQ8xSB5cD7f6O-ZuUsnEg/viewform?usp=sf_link',
         moreInfoLink: '',
         facilitatorsID:[3]
     },
