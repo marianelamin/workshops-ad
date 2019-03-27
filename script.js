@@ -89,14 +89,14 @@ const workshops = [
         facilitatorsID:[2]
     },
     {
-        name: 'CS200 for Javascript',
+        name: 'Javascript Fundamentals',
         whatIllLearn: 'We will contribute to an existent project, using online git repositories and applying concepts of Javascript.  We will start with the foundations and build up on it.',
         whatToBring: 'Laptop',
         when:'April 9th, 2019',
         where:'LWH 3046',
         time:'3pm - 4:30pm',
-        regLink_state: false,
-        regLink: '',
+        regLink_state: true,
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfVNQGFPC2S8Q5_KNv3FSGuLZpjQy3Cnh0DIxyeURh17QdXMw/viewform?usp=sf_link',
         moreInfoLink: '',
         facilitatorsID:[4]
     },
@@ -121,7 +121,7 @@ const aCard =  (workshop) => {
                 <li class="col-12 my-1"><label class="font-weight-bold">Title: </label> <span class="">${workshop['name']}</span> </li>
                 <li class="col-md-12 my-1"><label class="font-weight-bold">What to Learn: </label><p class="">${workshop['whatIllLearn']} <a target="_blank" href="${workshop['moreInfoLink']}" ${(workshop['moreInfoLink'])==''? 'hidden':''} title="more about the workshop">(more)</a></p></li>
                 <li class="col-md-12 my-1"><label class="font-weight-bold">What to bring: </label> <span class="">${workshop['whatToBring']} <span> </li>
-                <li class="col-12 my-1"><label class="font-weight-bold">Facilitators:</label> <span class="">  ${workshop['facilitatorsID'].reduce((total,val) => total+`<a href="mailto:${facilitators[val].email}">${facilitators[val].name}</a>, `," ")}--</span> </li>
+                <li class="col-12 my-1"><label class="font-weight-bold">Facilitators:</label> <span class="">  ${workshop['facilitatorsID'].reduce((total,val) => total+`<a title="email me!" href="mailto:${facilitators[val].email}">${facilitators[val].name}</a>, `," ")}--</span> </li>
             </div>
             <div class="col-md-auto">
                 <li class="col"><label class="font-weight-bold">When:</label> <span class="">${workshop['when']}</span> </li>
