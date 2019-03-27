@@ -53,18 +53,6 @@ const workshops = [
         facilitatorsID:[2]
     },
     {
-        name: 'Steganography and Kali Linux: Part 2',
-        whatIllLearn: 'How to install a program that we will be using in Kali Linux, as well as how to embed a text file, audio file and a java program in an image file.  You will learn also how to decrypt that image file with all the data stored.  Kali Linux is widely used by security experts in the real world.',
-        whatToBring: 'Laptop',
-        when:'April 4th, 2019',
-        where:'LWH 2044',
-        time:'3pm - 4pm',
-        regLink_state: true,
-        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeJRddOIsxJox1Dh6eghja3GLXxhOnWaurTPhdgtgFGFzRmrQ/viewform?usp=sf_link',
-        moreInfoLink: 'http://www.cahsi-midwest.org/workshop1-security/index.htm',
-        facilitatorsID:[2]
-    },
-    {
         name:'Python on the cloud',
         whatIllLearn: `We will learn the basics of python syntax.  We will execute python code from the cloud using GENI.`,
         whatToBring: 'Laptop',
@@ -77,7 +65,7 @@ const workshops = [
         facilitatorsID:[1]
     },
     {
-        name:'Artificial Neural Networks using Jupiter, python and Sci Kit Learn.',
+        name:'Artificial Neural Networks using Jupiter, python and Scikit-Learn.',
         whatIllLearn: 'You will apply AI concepts on ...',
         whatToBring: 'Laptop',
         when:'April 4th, 2019',
@@ -89,12 +77,24 @@ const workshops = [
         facilitatorsID:[3]
     },
     {
+        name: 'Steganography and Kali Linux: Part 2',
+        whatIllLearn: 'How to install a program that we will be using in Kali Linux, as well as how to embed a text file, audio file and a java program in an image file.  You will learn also how to decrypt that image file with all the data stored.  Kali Linux is widely used by security experts in the real world.',
+        whatToBring: 'Laptop',
+        when:'April 4th, 2019',
+        where:'LWH 2044',
+        time:'3pm - 4pm',
+        regLink_state: true,
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeJRddOIsxJox1Dh6eghja3GLXxhOnWaurTPhdgtgFGFzRmrQ/viewform?usp=sf_link',
+        moreInfoLink: 'http://www.cahsi-midwest.org/workshop1-security/index.htm',
+        facilitatorsID:[2]
+    },
+    {
         name: 'CS200 for Javascript',
         whatIllLearn: 'We will contribute to an existent project, using online git repositories and applying concepts of Javascript.  We will start with the foundations and build up on it.',
         whatToBring: 'Laptop',
-        when:'TBD',
-        where:'TBD',
-        time:'TBD',
+        when:'April 9th, 2019',
+        where:'LWH 3046',
+        time:'3pm - 4:30pm',
         regLink_state: false,
         regLink: '',
         moreInfoLink: '',
