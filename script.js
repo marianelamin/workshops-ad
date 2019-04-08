@@ -47,7 +47,7 @@ const workshops = [
         when:'March 28th, 2019',
         where:'LWH 2044',
         time:'3pm - 4pm',
-        regLink_state: true,
+        regLink_state: false,
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfquBGruEUW2XLalKC3JS3UszGDE0-CHz6rEqdEbZ7U49fuwQ/viewform?usp=sf_link',
         moreInfoLink: 'http://www.cahsi-midwest.org/workshop1-security/index.htm',
         facilitatorsID:[2]
@@ -59,7 +59,7 @@ const workshops = [
         when:'April 2nd, 2019',
         where:'LWH 2031',
         time:'3pm - 4:30pm',
-        regLink_state: true,
+        regLink_state: false,
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSddK7D1TxFjIDZBHwirACiO5qkcbfAAW58u1pLRtp9s5oDbGg/viewform?usp=sf_link',
         moreInfoLink: '',
         facilitatorsID:[1]
@@ -71,7 +71,7 @@ const workshops = [
         when:'April 4th, 2019',
         where:'LWH 2031',
         time:'9am - 11am',
-        regLink_state: true,
+        regLink_state: false,
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSc4hcOtncq5xDJ68vht9hJYEOX75zQ8xSB5cD7f6O-ZuUsnEg/viewform?usp=sf_link',
         moreInfoLink: '',
         facilitatorsID:[3]
@@ -97,9 +97,10 @@ const workshops = [
         time:'3pm - 4:30pm',
         regLink_state: true,
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfVNQGFPC2S8Q5_KNv3FSGuLZpjQy3Cnh0DIxyeURh17QdXMw/viewform?usp=sf_link',
-        moreInfoLink: '',
+        moreInfoLink: 'https://drive.google.com/file/d/1tuAWp2LAAXRYg_o8t4nkdDJbocfZpdUB/view',
         facilitatorsID:[4]
-    },
+    }
+    /*,
     {
         name: 'HTML/CSS - Canvas and Bootstrap',
         whatIllLearn: `Using html/css and Javascript to build a web application, a game or a calculator.  Once it is finished, we will deploy it to a server where everyone will be able to see/use it.  For this we will learn how to use Boostrap CSS framework in order to add style.  At the end we will save changes on the online reposotory.`,
@@ -111,7 +112,7 @@ const workshops = [
         regLink: '',
         moreInfoLink: '',
         facilitatorsID:[0]
-    }
+    }*/
 ];
 
 
