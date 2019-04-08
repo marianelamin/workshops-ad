@@ -24,7 +24,13 @@ const facilitators = [
         id:4,
         name: "Rudy",
         email:"rlpichol@neiu.edu"
+    },
+    {
+        id:5,
+        name: "William Stillman",
+        email:"w-stillman@neiu.edu"
     }
+
 ]
 
 const workshops = [
@@ -83,7 +89,7 @@ const workshops = [
         when:'April 4th, 2019',
         where:'LWH 2044',
         time:'3pm - 4pm',
-        regLink_state: true,
+        regLink_state: false,
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeJRddOIsxJox1Dh6eghja3GLXxhOnWaurTPhdgtgFGFzRmrQ/viewform?usp=sf_link',
         moreInfoLink: 'http://www.cahsi-midwest.org/workshop1-security/index.htm',
         facilitatorsID:[2]
@@ -99,6 +105,18 @@ const workshops = [
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfVNQGFPC2S8Q5_KNv3FSGuLZpjQy3Cnh0DIxyeURh17QdXMw/viewform?usp=sf_link',
         moreInfoLink: 'https://drive.google.com/file/d/1tuAWp2LAAXRYg_o8t4nkdDJbocfZpdUB/view',
         facilitatorsID:[4]
+    },
+    {
+        name: 'Tapping Phones before year 2000',
+        whatIllLearn: 'This will be a talk from a former Army Security Agency (ASA) employee on how using computer technology it was possible to tap phones and radios.',
+        whatToBring: 'nothing',
+        when:'April 18th, 2019',
+        where:'LWH 1001',
+        time:'9am - 10am',
+        regLink_state: true,
+        regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeEZy4j06lk-lu1O6kcUsfTBiQKC2MPfiVKLdXpTfpnHLilPQ/viewform?usp=sf_link',
+        moreInfoLink: '',
+        facilitatorsID:[5]
     }
     /*,
     {
