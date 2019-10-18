@@ -101,7 +101,7 @@ const workshops = [
         when:'April 9th, 2019',
         where:'LWH 3046',
         time:'3pm - 4:30pm',
-        regLink_state: true,
+        regLink_state: false,
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfVNQGFPC2S8Q5_KNv3FSGuLZpjQy3Cnh0DIxyeURh17QdXMw/viewform?usp=sf_link',
         moreInfoLink: 'https://drive.google.com/file/d/1tuAWp2LAAXRYg_o8t4nkdDJbocfZpdUB/view',
         facilitatorsID:[4]
@@ -113,7 +113,7 @@ const workshops = [
         when:'April 18th, 2019',
         where:'LWH 1001',
         time:'9am - 10am',
-        regLink_state: true,
+        regLink_state: false,
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeEZy4j06lk-lu1O6kcUsfTBiQKC2MPfiVKLdXpTfpnHLilPQ/viewform?usp=sf_link',
         moreInfoLink: '',
         facilitatorsID:[5]
