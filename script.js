@@ -43,7 +43,7 @@ const workshops = [
         time:'3pm - 4pm',
         regLink_state: false,
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLScwm5oaYSdvA4hnPCg_tiTBgD5bbPg-WNNW61a7r9eq9YtHNw/viewform?usp=sf_link',
-        moreInfoLink: 'http://manela.web.ve/workshops/command-line-git-bash/CommandLineWorkshop.pdf',
+        moreInfoLink: 'https://cahsi-midwest.org/spr2019WorkshopMaterial/CommandLineWorkshop.pdf',
         facilitatorsID:[1,2]
     },
     {
@@ -67,7 +67,7 @@ const workshops = [
         time:'3pm - 4:30pm',
         regLink_state: false,
         regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSddK7D1TxFjIDZBHwirACiO5qkcbfAAW58u1pLRtp9s5oDbGg/viewform?usp=sf_link',
-        moreInfoLink: '',
+        moreInfoLink: 'https://cahsi-midwest.org/spr2019WorkshopMaterial/PythonOnCloud.pdf',
         facilitatorsID:[1]
     },
     {
